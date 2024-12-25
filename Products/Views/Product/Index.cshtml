@@ -1,0 +1,35 @@
+﻿@model List<Product>
+
+<a class="btn btn-success" asp-controller="Product" asp-action="Create">Add</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+            @foreach (var product in Model) {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Category</td>
+                <td>@product.Price</td>
+                <td><a href="/products/@product.ImageFileName"><img src="/products/@product.ImageFileName" alt="Alternate Text" width="100" /></a></td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-success" asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id">Edit</a>
+                    <a class="btn btn-danger" asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id" onclick="return confirm('Are You Sure?')">Delete</a>
+                </td>
+            </tr>
+            }
+        
+        </tbody>
+    </table>
+

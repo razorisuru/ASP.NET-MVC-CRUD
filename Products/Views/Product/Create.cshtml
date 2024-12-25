@@ -1,0 +1,78 @@
+﻿@model ProductDto
+@{
+}
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data" class="p-4 bg-light rounded shadow-sm">
+        <!-- Name Field -->
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label fw-bold">Name</label>
+            <input class="form-control" type="text" asp-for="Name" placeholder="Enter the name" />
+            <span asp-validation-for="Name" class="text-danger small"></span>
+        </div>
+
+        <!-- Description Field -->
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label fw-bold">Description</label>
+            <textarea class="form-control" asp-for="Description" placeholder="Enter a description" rows="3"></textarea>
+            <span asp-validation-for="Description" class="text-danger small"></span>
+        </div>
+
+        <!-- Category Field -->
+        <div class="mb-3">
+            <label asp-for="Category" class="form-label fw-bold">Category</label>
+            <select class="form-select" asp-for="Category">
+                <option value="" disabled selected>Select a category</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Home">Home</option>
+                <option value="Books">Books</option>
+                <option value="Sports">Sports</option>
+            </select>
+            <span asp-validation-for="Category" class="text-danger small"></span>
+        </div>
+
+        <!-- Price Field -->
+        <div class="mb-3">
+            <label asp-for="Price" class="form-label fw-bold">Price</label>
+            <input class="form-control" type="text" asp-for="Price" placeholder="Enter the price" />
+            <span asp-validation-for="Price" class="text-danger small"></span>
+        </div>
+
+        <!-- Image Preview -->
+        <div class="mb-3 text-center">
+            <img id="imagePreview" src="#" alt="Image Preview" class="img-thumbnail" width="150" style="display: none;"/>
+        </div>
+
+        <!-- Image Upload Field -->
+        <div class="mb-3">
+            <label asp-for="ImageFile" class="form-label fw-bold">Upload Image</label>
+            <input class="form-control" type="file" asp-for="ImageFile" id="imageFileInput" accept="image/*" />
+            <span asp-validation-for="ImageFile" class="text-danger small"></span>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-end">
+            <button type="submit" class="btn btn-success px-4 py-2 fw-bold">Submit</button>
+        </div>
+    </form>
+
+</div>
+
+<script>
+    document.getElementById('imageFileInput').addEventListener('change', function (event) {
+        const file = event.target.files[0];
+        const preview = document.getElementById('imagePreview');
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                preview.src = e.target.result;
+                preview.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        } else {
+            preview.src = '#';
+            preview.style.display = 'none';
+        }
+    });
+</script>
