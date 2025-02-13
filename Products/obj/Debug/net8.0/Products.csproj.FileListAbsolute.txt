@@ -138,3 +138,4 @@ C:\Users\Isuru\source\repos\Products\Products\obj\Debug\net8.0\refint\Products.d
 C:\Users\Isuru\source\repos\Products\Products\obj\Debug\net8.0\Products.pdb
 C:\Users\Isuru\source\repos\Products\Products\obj\Debug\net8.0\Products.genruntimeconfig.cache
 C:\Users\Isuru\source\repos\Products\Products\obj\Debug\net8.0\ref\Products.dll
+C:\Users\Isuru\source\repos\Products\Products\obj\Debug\net8.0\Products.sourcelink.json

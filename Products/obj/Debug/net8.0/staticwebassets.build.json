@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Jpy69PRdujPplo8aXTEKpJnfaogJOJ38KHCE/MRWBEI=",
+  "Hash": "eBcllk2f/tgICIJY+kaoKZQZ05qujPjT3iCxl7UfnkM=",
   "Source": "Products",
   "BasePath": "_content/Products",
   "Mode": "Default",
@@ -1338,6 +1338,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\products\\20241225182101230.png"
+    },
+    {
+      "Identity": "C:\\Users\\Isuru\\source\\repos\\Products\\Products\\wwwroot\\products\\20241225182239372.png",
+      "SourceId": "Products",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Isuru\\source\\repos\\Products\\Products\\wwwroot\\",
+      "BasePath": "_content/Products",
+      "RelativePath": "products/20241225182239372#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5wxpo9h2js",
+      "Integrity": "1eOIKrmnAeFd4cZ6ibhZxxsjh8T7wTJXJPUgPqTokDc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20241225182239372.png"
     },
     {
       "Identity": "C:\\Users\\Isuru\\source\\repos\\Products\\Products\\wwwroot\\products\\pin.png",
@@ -6525,6 +6546,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-7JSDpFauOr76eyizsOqddSCwd9ADdc/jYyP0wMmYoMk="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241225182239372.5wxpo9h2js.png",
+      "AssetFile": "C:\\Users\\Isuru\\source\\repos\\Products\\Products\\wwwroot\\products\\20241225182239372.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1215064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eOIKrmnAeFd4cZ6ibhZxxsjh8T7wTJXJPUgPqTokDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 12:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5wxpo9h2js"
+        },
+        {
+          "Name": "label",
+          "Value": "products/20241225182239372.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eOIKrmnAeFd4cZ6ibhZxxsjh8T7wTJXJPUgPqTokDc="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241225182239372.png",
+      "AssetFile": "C:\\Users\\Isuru\\source\\repos\\Products\\Products\\wwwroot\\products\\20241225182239372.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1215064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eOIKrmnAeFd4cZ6ibhZxxsjh8T7wTJXJPUgPqTokDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 12:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eOIKrmnAeFd4cZ6ibhZxxsjh8T7wTJXJPUgPqTokDc="
         }
       ]
     },

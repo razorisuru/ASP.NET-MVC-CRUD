@@ -5087,6 +5087,88 @@
       ]
     },
     {
+      "Route": "products/20241225182239372.5wxpo9h2js.png",
+      "AssetFile": "products/20241225182239372.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1215064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eOIKrmnAeFd4cZ6ibhZxxsjh8T7wTJXJPUgPqTokDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 12:52:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5wxpo9h2js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eOIKrmnAeFd4cZ6ibhZxxsjh8T7wTJXJPUgPqTokDc="
+        },
+        {
+          "Name": "label",
+          "Value": "products/20241225182239372.png"
+        }
+      ]
+    },
+    {
+      "Route": "products/20241225182239372.png",
+      "AssetFile": "products/20241225182239372.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1215064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eOIKrmnAeFd4cZ6ibhZxxsjh8T7wTJXJPUgPqTokDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 12:52:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eOIKrmnAeFd4cZ6ibhZxxsjh8T7wTJXJPUgPqTokDc="
+        }
+      ]
+    },
+    {
       "Route": "products/pin.png",
       "AssetFile": "products/pin.png",
       "Selectors": [],
